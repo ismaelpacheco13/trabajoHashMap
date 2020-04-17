@@ -4,6 +4,9 @@
 El HashMap designa claves únicas para los valores correspondientes que se pueden recuperar en cualquier punto dado.
 
 ## Características
+
+<img src="https://www.edureka.co/blog/wp-content/uploads/2019/09/img-recreate-01-1.jpg" alt="Par clave-valor">
+
 - Los valores se pueden almacenar en un mapa formando un par clave-valor. El valor se puede recuperar usando la clave pasándola al método correcto.
 
 - Si no existe ningún elemento en el Map, se arrojará una excepción "NoSuchElementException".
@@ -49,6 +52,20 @@ Si por ejemplo quisieramos eliminar algun elemento del HashMap simplemente utili
 x.remove("Prueba"); // Con esto se eliminaría el valor "Para eliminar" asociado a la clave "Prueba"
 ```
 
-A su vez, si hacemos un system.out.print del HashMap nos devolverá todos sus valores. En nuestro caso devolvería:
+Podemos obtener todos los valores existentes en el HashMap mediante:
+```java
+System.out.println(x.values());
+```
 
+En nuestro caso devolvería los siguientes valores:
 > [Ismael, Pacheco, Desarrollo de Aplicaciones Multiplataforma, Para eliminar]
+
+Podemos hacer lo mismo para obtener todas las claves mediante:
+```java
+System.out.println(x.keySet());
+```
+
+En nuestro caso devolvería las siguientes claves:
+> [Nombre, Apellido, Estudios, Prueba]
+
+> :star: Si te ha gustado este resumen dale una estrellita al [repositorio](https://github.com/ismaelpacheco13/trabajoHashMap)
